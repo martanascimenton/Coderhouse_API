@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.background {
+    background-image: url(../Imagem/pokemon.webp);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.card { 
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.card .card_title {
+    font-size: 24px;
+    background-color: white;
+    text-align: center;
+}
+
+.card .card_botao {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: teal;
+}
+
+.card .card__image {
+    background-color: white;
+    width: 50%;
+    
+}
